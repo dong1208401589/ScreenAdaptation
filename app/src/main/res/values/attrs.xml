@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WDLinearLayout">
+        <attr name="layout_width_wd" format="float"></attr>
+        <attr name="layout_height_wd" format="float"></attr>
+        <attr name="topMargin" format="float"></attr>
+        <attr name="bottomMargin" format="float"></attr>
+        <attr name="leftMargin" format="float"></attr>
+        <attr name="rightMargin" format="float"></attr>
+    </declare-styleable>
+</resources>
