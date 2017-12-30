@@ -38,7 +38,13 @@ public class WDLinearLayout extends LinearLayout {
         for (int i = 0; i < childCount; i++) {
             View view=getChildAt(i);
             LinearLayout.LayoutParams layoutParams= (LayoutParams) view.getLayoutParams();
-            ViewCalculateUtil.setViewLinearLayoutParam(view,layoutParams.width,layoutParams.height,layoutParams.topMargin,layoutParams.rightMargin,layoutParams.bottomMargin,layoutParams.leftMargin);
+            ViewCalculateUtil.setViewLinearLayoutParam(view,
+                    layoutParams.width,
+                    layoutParams.height,
+                    layoutParams.topMargin,
+                    layoutParams.rightMargin,
+                    layoutParams.bottomMargin,
+                    layoutParams.leftMargin);
         }
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
